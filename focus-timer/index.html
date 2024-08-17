@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusTimer</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="timer">
+        <span class="minutes">00</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+      <div class="controls">
+        <button class="play">
+          <img src="./assets/images/play.svg" alt="figura de play" />
+        </button>
+        <button class="pause hide">
+          <img src="./assets/images/pause.svg" alt="figura de pause" />
+        </button>
+        <button class="stop hide">
+          <img src="./assets/images/stop.svg" alt="figura de stop" />
+        </button>
+        <button class="set">
+          <img src="./assets/images/set.svg" alt="figura de set" />
+        </button>
+      </div>
+    </main>
+    <footer>
+      <button class="sound-on hide">
+        <img src="./assets/images/sound-on.svg" alt="figura de som ligado" />
+      </button>
+      <button class="sound-off">
+        <img
+          src="./assets/images/sound-off.svg"
+          alt="figura de som desligado"
+        />
+      </button>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
